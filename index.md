@@ -21,16 +21,15 @@ Co-hosting TechShaw Podcast
 
 Android Development, Software Architecture, Testing, Making Quality products
 
-
 ## Biography
 
-Been an active member in Android community for over 7 years, where 6 years was spent working at one of the largest software agency in Android. I've dabbled in all form of products from a simple textbook apps to advanced apps such as real time cinema booking systems. Started from and internship, and rose to lead the whole mobile development team, I have a belief that a long term investment will pay off in the end. 
+Been an active member in Android community for over 7 years, where 6 years was spent working at one of the largest software agency in Android. I have dabbled in all form of products from a simple textbook apps to advanced apps such as real time cinema booking systems. Started from an internship, and rose to lead the whole mobile development team, I have a belief that a long term investment will pay off in the end. 
 
 On the development side, currently developing Android and iOS Apps, as well as managing the Gitlab CI/CD pipelines.
 
 On the management side, handling research and development of new technology stack, such as new Jetpack libraries, navigation architecture.. etc, analyzing technical difficulties and coming up with long-lasting solutions, mentoring and code reviews of my peers. 
 
-Aside from my professional career, I also believe in contributing and giving back to the community. I run a [personal blog](https://medium.com/@aungkyawpaing), where I reguarly shares technical knowlege as well as my opinions on software devleopment, and [particpate as a speaker](https://speakerdeck.com/vincentpaing_) in local community events as well as global ones, such as Droidcon Phillipines, DroidYangon, Google DevFest, Developer Conference Myanmar, Barcamp Yangon and many more. Me and a friend of mine are also working on hosting the first ever Burmese Tech Podcast, [Techshaw](https://anchor.fm/techshaw), where we share knowledge about everything related to technology. Last, but not least, I also release tutorials at my [Youtube channel](https://www.youtube.com/c/AungKyawPaing) in Burmese language for local developers to learn about Android Development.
+Aside from my professional career, I also believe in contributing and giving back to the community. I run a [personal blog](https://medium.com/@aungkyawpaing), where I reguarly share technical knowlege as well as opinions on software devleopment, and [particpate as a speaker](https://speakerdeck.com/vincentpaing_) in local community events as well as global ones, such as Droidcon Phillipines, DroidYangon, Google DevFest, Developer Conference Myanmar, Barcamp Yangon and many more. Me and a friend of mine are also working on hosting the first ever Burmese Tech Podcast, [Techshaw](https://anchor.fm/techshaw), where we share knowledge about everything related to technology. Last, but not least, I also release tutorials at my [Youtube channel](https://www.youtube.com/c/AungKyawPaing) in Burmese language for local developers to learn about Android Development.
 
 
 ## Skill
@@ -73,7 +72,7 @@ KtLint Check, detekt, lint configurations, LeakCanary
 
 Android Studio, Vim, IntelliJ, VSCode, Postman, Stoplight
 
-## Professional Carrer
+## Professional Career
 `Oct 2014- Oct 2017`
 __Junior Android Developer, nexlab__
 
@@ -83,18 +82,23 @@ __Android Developer, nexlab__
 `Oct 2018- now`
 __Android Team Lead, nexlab__
 
-- Reasarching, and analyzing solutions for clients
+- Researching, and analyzing solutions for clients
+
 - Develop across the entire app life cycle- concept, design, build, deploy, test, optimize, release to app stores and support
+
 - Work directly with managers and members to develop project plans and technology details
+
 - Work directly with designers, developers, user experience leads, and producers to conceptualize, build, test and release products
+
 - Provide mentorship, training and technical consultation to team members
+
 - Research and keeping up to date on the latest industry trends in mobile technologies
 
-## ShowCase
+## App Showcase
 [`Github`](https://github.com/PopStackHack/mVoterAndroid)
 __mVoter__
 
-mVoter is the official voter information app endorsed by Union Eelection Comission. It serves as a one-stop information provider app from 2015 General Election, 2017 By-election to 2020 General Election. We develop this app with Single Acitivty Architecture with the use of Conductor, a view-based controllers. The project extensively uses modern android development architectures, and technolgoy such as Firebase Cloud functions. The codes are fully open sourced and developed visibilty to everyone. This was developed by me and a group of friends as a civic contribution to the country.
+mVoter is the official voter information app endorsed by Union Eelection Comission. It serves as a one-stop information provider app from 2015 General Election, 2017 By-election to 2020 General Election. We develop this app with Single Activity Architecture with the use of Conductor, a view-based controller. The project extensively uses modern android development architectures, and technology such as Firebase Cloud functions. The codes are fully open sourced and developed visibilty to everyone. This was developed voluntarily by me and a group of friends as a civic contribution to the country.
 
 [`Play Store`](https://play.google.com/store/apps/details?id=ims.fojo.dw.communityradio)
 __Yat Ywar A Than (Community Voice)__
@@ -104,12 +108,17 @@ Community Voice is a local podcast app that is made as a channel for ethnic peop
 [`Play Store`](https://play.google.com/store/apps/details?id=com.mingalar.cinemas&hl=en_US)
 __Mingalar Cinema__
 
-Mingalar Cinema is one of the two large cinema chains in Myanmar, and we developed a real time booking system together with a client side app. We uses Socket.io for the real time booking and there are a couple of payment integrations for local e-banking and e-wallet apps.
+Mingalar Cinema is one of the two large cinema chains in Myanmar, and we developed a real time booking system together with a client side app. We usesd Socket.io for the real time booking and there are a couple of payment integrations for local e-banking and e-wallet apps.
+
+[`Play Store`](hhttps://play.google.com/store/apps/details?id=com.recyclemm.user)
+__Recycle Myanmar__
+
+The Award Winning app for Public Service Distinction at Asia Smart App Awards, Recycle Myanmar is a platform that connects recyclers and pickers through their mobile communication. The app has two parts, one for the recyclers and one of the pickers. It uses GPS to locate the nearest pickers, where the recycler can track when the picker will arrives, and the pickers can see the real time position of all the requested recyclers near them.
 
 ## Accomplishments
 
 `Sep 2015`
-Fist Place, *MaePaySoh (Let's Vote) Hack Challange*
+First Place, *MaePaySoh (Let's Vote) Hack Challange*
 
 `Jun 2017`
 [CS50: Harvard's Introduction to Computer Science](https://courses.edx.org/certificates/5be28890e2c845d6ae27e109bfdd31b7)
