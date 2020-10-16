@@ -3,7 +3,7 @@ layout: cv
 title: Aung Kyaw Paing's CV
 ---
 # Aung Kyaw Paing
-Co-Host of TechShaw Podcast, Mobile Development Team Lead @ nexlabs
+Mobile Development Team Lead @ nexlabs, Co-Host of Burmese first Tech podcast
 
 <div id="webaddress">
 <a href="https://github.com/vincent-paing">Github</a> 
@@ -25,7 +25,7 @@ Android Development, Software Architecture, Testing, Making Quality products
 
 Been an active member in Android community for over 7 years, where 6 years was spent working at one of the largest software agency in Android. I have dabbled in all form of products from a simple textbook apps to advanced apps such as real time cinema booking systems. Started from an internship, and rose to lead the whole mobile development team, I have a belief that a long term investment will pay off in the end. 
 
-On the development side, currently developing Android and iOS Apps, as well as managing the Gitlab CI/CD pipelines.
+On the development side, currently developing Android and iOS Apps, as well as managing the Gitlab CI/CD pipelines for deployment and testing of the app. I also do research on new trends and libraries and find ways to integrate if they seem fit for the projects.
 
 On the management side, handling research and development of new technology stack, such as new Jetpack libraries, navigation architecture.. etc, analyzing technical difficulties and coming up with long-lasting solutions, mentoring and code reviews of my peers. 
 
@@ -46,71 +46,67 @@ Android Development, iOS Development, Software Architecture (MVVM, MVP, Clean ar
 
 ### First-party libraries
 
-AndroidX components, Jetpack Datastore, Jetpack Navigation, Android Architecture Components, Room, Material Components, Dagger, Dagger Hilt, Dagger Android, Constraint Layout, Jetpack Paging, AndroidX Work, Android JUnit/Robolectric, Espresso
+- Jetpack Architecture Libraries
+- Material Components
+- Room Persistance Database
+- Dagger + Dagger Android/Dagger Hilt
+- Paging library
+- WorK Managers
+- Android JUnit/Robolectric, Espresso, UIAutomator
 
 ### Third-party libraries
 
-RxJava, Kotlin Coroutine
+**Concurrency Framework** - RxJava, Kotlin Coroutine
 
-Sqldelight, Realm, Pure SQLite, Protobuffer
+**Database** - SQLDelight, Realm, Pure SQLite, Protobuffer, ObjectBox
 
-OKHttp *with and without* Retrofit, Apollo Android
+**Networking** - OKHttp *with and without* Retrofit, Apollo Android
 
-Picasso, Glide, Coil, Lottie
+**Image Handling** - Picasso, Glide, Coil, Lottie
 
-Moshi, Gson, KoltinX Seralization
-
-Conductor
-
-Koin, Kodein
-
-Mockito, Kakao
+**Media** - Exoplayer, FFMPEG
 
 ### Tooling
 
-KtLint Check, detekt, lint configurations, LeakCanary
+**Analyzer & Debugging** - KtLint Check, detekt, lint configurations, LeakCanary, Sentry
 
-Android Studio, Vim, IntelliJ, VSCode, Postman, Stoplight
+**Others** - Android Studio, Vim, IntelliJ, VSCode, Postman, Stoplight
 
 ## Professional Career
-`Oct 2014- Oct 2017`
-__Junior Android Developer, nexlab__
-
-`Oct 2017- Sep 2018`
-__Android Developer, nexlab__
 
 `Oct 2018- now`
 __Android Team Lead, nexlab__
 
-- Researching, and analyzing solutions for clients
+Researching, and analyzing solutions for clients
 
-- Develop across the entire app life cycle- concept, design, build, deploy, test, optimize, release to app stores and support
+Develop across the entire app life cycle- concept, design, build, deploy, test, optimize, release to app stores and support
 
-- Work directly with managers and members to develop project plans and technology details
+Work directly with managers and members to develop project plans and technology details
 
-- Work directly with designers, developers, user experience leads, and producers to conceptualize, build, test and release products
+Work directly with designers, developers, user experience leads, and producers to conceptualize, build, test and release products
 
-- Provide mentorship, training and technical consultation to team members
+Provide mentorship, training and technical consultations to team members
 
-- Research and keeping up to date on the latest industry trends in mobile technologies
+Research and keeping up to date on the latest industry trends in mobile technologies
+
+`Oct 2017- Sep 2018`
+__Android Developer, nexlab__
+
+`Oct 2014- Oct 2017`
+__Junior Android Developer, nexlab__
 
 ## App Showcase
-[`Github`](https://github.com/PopStackHack/mVoterAndroid)
-__mVoter__
-
-mVoter is the official voter information app endorsed by Union Eelection Comission. It serves as a one-stop information provider app from 2015 General Election, 2017 By-election to 2020 General Election. We develop this app with Single Activity Architecture with the use of Conductor, a view-based controller. The project extensively uses modern android development architectures, and technology such as Firebase Cloud functions. The codes are fully open sourced and developed visibilty to everyone. This was developed voluntarily by me and a group of friends as a civic contribution to the country.
-
 [`Play Store`](https://play.google.com/store/apps/details?id=ims.fojo.dw.communityradio)
 __Yat Ywar A Than (Community Voice)__
 
-Community Voice is a local podcast app that is made as a channel for ethnic people in Burma to voice out their opinions. We use ExoPlayer as main player for all audio and videos in the app. The app also has a section to edit audio, before uploading episodes. We fork [RingDroid](https://github.com/google/ringdroid) and wrote a custom implemenation combined with FFMpeg for the audio editor.
+Community Voice is a local podcast app that is made as a channel for ethnic people in Burma to voice out their opinions. We use ExoPlayer as main player for all audio and videos in the app. There's a single exo player instance that is used across both foreground and background, and this global manager emit events which are subscribed by the background service as well as foreground UI to render the current state of the palyer. It also utilizes Exoplayer cache to save the data cost on downloading podcasts, where we copy part of already-cached data before downloading start. The app also has a section to edit audio, before uploading episodes. We fork [RingDroid](https://github.com/google/ringdroid) and wrote a custom implemenation combined with FFMpeg for the audio editor.
 
-[`Play Store`](https://play.google.com/store/apps/details?id=com.mingalar.cinemas&hl=en_US)
-__Mingalar Cinema__
+[`Play Store`](https://play.google.com/store/apps/details?id=com.myanmarmedia7news)
+__Myanmar Media 7__
 
-Mingalar Cinema is one of the two large cinema chains in Myanmar, and we developed a real time booking system together with a client side app. We usesd Socket.io for the real time booking and there are a couple of payment integrations for local e-banking and e-wallet apps.
+Myanmar Media 7 is a news and media App. The app includes a section where user can pay a subscription fee to watch tv series made by Myanmar Media 7 Company. We uses Viemo service to host videos and uses Exoplayer to stream these files back  onto the device. The app includes custom implementation of Exo player controls to make it feel more natural and intutive to user.
 
-[`Play Store`](hhttps://play.google.com/store/apps/details?id=com.recyclemm.user)
+[`Play Store`](https://play.google.com/store/apps/details?id=com.recyclemm.user)
 __Recycle Myanmar__
 
 The Award Winning app for Public Service Distinction at Asia Smart App Awards, Recycle Myanmar is a platform that connects recyclers and pickers through their mobile communication. The app has two parts, one for the recyclers and one of the pickers. It uses GPS to locate the nearest pickers, where the recycler can track when the picker will arrives, and the pickers can see the real time position of all the requested recyclers near them.
