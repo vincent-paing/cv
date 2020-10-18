@@ -75,7 +75,7 @@ Android Development, iOS Development, Software Architecture (MVVM, MVP, Clean ar
 ## Professional Career
 
 `Oct 2018- now`
-__Android Team Lead, nexlab__
+__Mobile Development Team Lead, nexlabs__
 
 Researching, and analyzing solutions for clients
 
@@ -90,26 +90,23 @@ Provide mentorship, training and technical consultations to team members
 Research and keeping up to date on the latest industry trends in mobile technologies
 
 `Oct 2017- Sep 2018`
-__Android Developer, nexlab__
+__Android Developer, nexlabs__
 
 `Oct 2014- Oct 2017`
-__Junior Android Developer, nexlab__
+__Junior Android Developer, nexlabs__
 
 ## App Showcase
-[`Play Store`](https://play.google.com/store/apps/details?id=ims.fojo.dw.communityradio)
-__Yat Ywar A Than (Community Voice)__
+__Abacus Field__
 
-Community Voice is a local podcast app that is made as a channel for ethnic people in Burma to voice out their opinions. We use ExoPlayer as main player for all audio and videos in the app. There's a single exo player instance that is used across both foreground and background, and this global manager emit events which are subscribed by the background service as well as foreground UI to render the current state of the palyer. It also utilizes Exoplayer cache to save the data cost on downloading podcasts, where we copy part of already-cached data before downloading start. The app also has a section to edit audio, before uploading episodes. We fork [RingDroid](https://github.com/google/ringdroid) and wrote a custom implemenation combined with FFMpeg for the audio editor.
+Abacus Field is an field app made for the Microfinance Agents. The app is mostly used in Africa, where the Interent connection is not reliable. So the app is made as offline-first approach where we freeze information of clients when downloading onto device and synced back and unfrezze later when the agent come back from the field to office.
 
-[`Play Store`](https://play.google.com/store/apps/details?id=com.myanmarmedia7news)
-__Myanmar Media 7__
-
-Myanmar Media 7 is a news and media App. The app includes a section where user can pay a subscription fee to watch tv series made by Myanmar Media 7 Company. We uses Viemo service to host videos and uses Exoplayer to stream these files back  onto the device. The app includes custom implementation of Exo player controls to make it feel more natural and intutive to user.
-
-[`Play Store`](https://play.google.com/store/apps/details?id=com.recyclemm.user)
 __Recycle Myanmar__
 
 The Award Winning app for Public Service Distinction at Asia Smart App Awards, Recycle Myanmar is a platform that connects recyclers and pickers through their mobile communication. The app has two parts, one for the recyclers and one of the pickers. It uses GPS to locate the nearest pickers, where the recycler can track when the picker will arrives, and the pickers can see the real time position of all the requested recyclers near them.
+
+__mVoter__
+
+mVoter is the official voter information app endorsed by Union Eelection Comission. It serves as a one-stop information provider app from 2015 General Election, 2017 By-election to 2020 General Election. We develop this app with Single Acitivty Architecture with the use of Conductor, a view-based controllers. The project extensively uses modern android development architectures, and technolgoy such as Firebase Cloud functions. The codes are fully open sourced and developed visibilty to everyone. This was developed by me and a group of friends as a civic contribution to the country.
 
 ## Accomplishments
 
@@ -143,7 +140,3 @@ __Bachelor's Degree, Computer Studies__, University of Yangon
 Phone Number : +959795262454
 
 Email : dev.aungkyawpaing@gmail.com
-
-### Footer
-
-Last updated: Oct 2020
